@@ -14,4 +14,4 @@ The project has been created for personal use to learn the VMWare vCloud REST AP
 License
 -------
 
-vCloudPy is released under the MIT License.
+vCloudPy is released under the [MIT License](http://www.opensource.org/licenses/MIT).
