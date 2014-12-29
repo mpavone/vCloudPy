@@ -11,7 +11,6 @@ The proxy class maps parameters to XML elements and the send the HTTP calls over
 
 The project has been created for personal use to learn the VMWare vCloud REST API and to solve specific tasks. At the moment, it has been developed and tested using VMWare vCloud 5.5 and there is no full coverage of the vCloud API but, in the spirit of the Open Source, vCloudPy encourage the community code and feedbacks for future improvements.
 
-License
-=======
+## License
 
 vCloudPy is released under the MIT License.
