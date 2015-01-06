@@ -20,6 +20,23 @@ Installation Guide
 Drop the file vCloudPy.py in a folder, import in a script or an interactive shell and just start using it.
 
 The script has been developed and tested in the following environment:
-	Python 2.7.8; 
-	Requests Module 2.3.0;
-	vCloud Director 5.5.
+*	Python 2.7.8
+*	Requests Module 2.3.0
+*	vCloud Director 5.5
+
+Documentation
+-------------
+
+The documentation package includes the following documentation:
+
+[Quickstart Guide]() used to easily start to practice with the SDK
+[Reference Guide]() comprehensive description of all methods
+
+and the samples listed below:
+
+[SampleQuickstart.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py)
+[SampleCopyVApp.py]()
+[SampleCopyVM.py]()
+
+
+
