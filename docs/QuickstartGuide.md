@@ -18,10 +18,10 @@ vCloudClient instance implements all the methods to work with VMWare vCloud.
 Anyway, before to call any method it is required to connect the proxy.
 The connection requires three parameters:
 
-	user account: 	the account in VMWare vCloud DC
-	password: 	the account's password
-	organization:	the organization name
-	endpoint:	the endpoint URL
+*	user account: 	the account in VMWare vCloud DC
+*	password: 	the account's password
+*	organization:	the organization name
+*	endpoint:	the endpoint URL
 
 
 username 	= 'admin'
