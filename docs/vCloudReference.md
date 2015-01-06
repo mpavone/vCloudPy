@@ -13,7 +13,6 @@ __extract_info__(content, select=None)
 __extract_info_for_element__(content, element, subelement=None, filter=None, select=None) 
 
 ####vCloud.__extract_info_for_type__
-====================================
 __extract_info_for_type__(content, type, filter=None, select=None) 
 
 vCloud.__recompose_vapp_to_add__
