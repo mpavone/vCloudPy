@@ -34,7 +34,7 @@ The documentation package includes the following documentation:
 
 and the samples listed below:
 
-* [SampleQuickstart.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py): Qickstart Guide Sample Code
+* [SampleQuickstart.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py): Quickstart Guide Sample Code
 * [SampleCopyVApp.py](): 
 * [SampleCopyVM.py](): 
 
