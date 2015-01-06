@@ -10,10 +10,11 @@ vCloud.__extract_info__
 __extract_info__(content, select=None) 
 
 vCloud.__extract_info_for_element__
-___________________________________
+-----------------------------------
 __extract_info_for_element__(content, element, subelement=None, filter=None, select=None) 
 
-####vCloud.__extract_info_for_type__
+vCloud.__extract_info_for_type__
+------------------------------------
 __extract_info_for_type__(content, type, filter=None, select=None) 
 
 vCloud.__recompose_vapp_to_add__
@@ -59,12 +60,19 @@ get_catalogItem(catalog_href, filter=None, select=None)
 vCloud.get_item
 ---------------
 get_item(href) 
+
 vCloud.get_network
+------------------
 get_network(filter=None) 
+
 vCloud.get_org
+--------------
 get_org() 
+
 vCloud.get_request
+------------------
 get_request(href) 
+
 vCloud.get_status
 get_status() 
 vCloud.get_storageProfiles
