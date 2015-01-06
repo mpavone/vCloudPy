@@ -98,4 +98,4 @@ for vm in vms_suspended :
     vCloudClient.start_vm(vm['href'])
 ```
 
-The complete script can be found at [here] ()
+The complete script can be found at [here] (https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py)
