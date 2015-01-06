@@ -1,6 +1,8 @@
 #vCloud Reference
 ================
 
+##Conructor and Private Methods
+
 [vCloud (Constructor)](vCloudReference.md#vcloud-constructor)
 
 [vCloud.__extract_info__](vCloudReference.md#vcloudextract_info)
@@ -9,51 +11,95 @@
 
 [vCloud.__extract_info_for_type__](vCloudReference.md#vcloudextract_info_for_type)
 
-[vCloud.recompose_vapp_to_add](vCloudReference.md#vcloudrecompose_vapp_to_add)
+[vCloud.__set_status__](vCloudReference.md#vcloudset_status)
 
-[vCloud.set_status](vCloudReference.md#vcloudset_status)
+[vCloud.__recompose_vapp_to_add__](vCloudReference.md#vcloudrecompose_vapp_to_add)
+
+##Generic Methods
 
 [vCloud.connect](vCloudReference.md#vcloudconnect)
 
+[vCloud.disconnect](vCloudReference.md#vclouddisconnect)
+
+[vCloud.get_status](vCloudReference.md#vcloudget_status)
+
+[vCloud.get_item](vCloudReference.md#vcloudget_item)
+
+[vCloud.print_item](vCloudReference.md#vcloudprint_item)
+
+##vApp Methods
+
+[vCloud.get_vapp](vCloudReference.md#vcloudget_vapp)
+
+[vCloud.get_vapp_templates](vCloudReference.md#vcloudget_vapp_templates)
+
+[vCloud.move_vapp](vCloudReference.md#vcloudmove_vapp)
+
 [vCloud.copy_vapp](vCloudReference.md#vcloudcopy_vapp)
-
-[vCloud.copy_vm](vCloudReference.md#vcloudcopy_vm)
-
-[vCloud.delete_request](vCloudReference.md#vclouddelete_request)
 
 [vCloud.delete_vapp](vCloudReference.md#vclouddelete_vapp)
 
-[vCloud.disconnect](vCloudReference.md#vclouddisconnect)
-[vCloud.get_catalog](vCloudReference.md#vcloudget_catalog)
-[vCloud.get_catalogItem](vCloudReference.md#vcloudget_catalogItem)
-[vCloud.get_item](vCloudReference.md#vcloudget_item)
-[vCloud.get_network](vCloudReference.md#vcloudget_network)
-[vCloud.get_org](vCloudReference.md#vcloudvCloud.get_org)
-[vCloud.get_request](vCloudReference.md#vcloudget_request)
-[vCloud.get_status](vCloudReference.md#vcloudget_status)
-[vCloud.get_storage_profiles](vCloudReference.md#vcloudget_storage_profiles)
-[vCloud.get_task](vCloudReference.md#vcloudget_task)
-[vCloud.get_vapp](vCloudReference.md#vcloudget_vapp)
-[vCloud.get_vapp_templates](vCloudReference.md#vcloudget_vapp_templates)
-[vCloud.get_vdc](vCloudReference.md#vcloudget_vdc)
-[vCloud.get_vm](vCloudReference.md#vcloudget_vm)
-[vCloud.move_vapp](vCloudReference.md#vcloudmove_vapp)
-[vCloud.move_vm](vCloudReference.md#vcloudmove_vm)
-[vCloud.new_vapp_from_template](vCloudReference.md#vcloudnew_vapp_from_template)
-[vCloud.post_request](vCloudReference.md#vcloudpost_request)
-[vCloud.print_item](vCloudReference.md#vcloudprint_item)
-[vCloud.reboot_vapp](vCloudReference.md#vcloudreboot_vapp)
-[vCloud.reset_vapp](vCloudReference.md#vcloudreset_vapp)
-[vCloud.reset_vm](vCloudReference.md#vcloudreset_vm)
-[vCloud.shutdown_vapp](vCloudReference.md#vcloudshutdown_vapp)
-[vCloud.shutdown_vm](vCloudReference.md#vcloudshutdown_vm)
 [vCloud.start_vapp](vCloudReference.md#vcloudstart_vapp)
-[vCloud.stop_vapp](vCloudReference.md#vcloudstop_vapp)
-[vCloud.stop_vm](vCloudReference.md#vcloudstop_vm)
+
+[vCloud.shutdown_vapp](vCloudReference.md#vcloudshutdown_vapp)
+
 [vCloud.suspend_vapp](vCloudReference.md#vcloudsuspend_vapp)
-[vCloud.suspend_vm](vCloudReference.md#vcloudsuspend_vm)
+
 [vCloud.undeploy_vapp](vCloudReference.md#vcloudundeploy_vapp)
+
+[vCloud.stop_vapp](vCloudReference.md#vcloudstop_vapp)
+
+[vCloud.reboot_vapp](vCloudReference.md#vcloudreboot_vapp)
+
+[vCloud.reset_vapp](vCloudReference.md#vcloudreset_vapp)
+
+[vCloud.new_vapp_from_template](vCloudReference.md#vcloudnew_vapp_from_template)
+
+
+##VM Methods
+[vCloud.get_vm](vCloudReference.md#vcloudget_vm)
+
+[vCloud.move_vm](vCloudReference.md#vcloudmove_vm)
+
+[vCloud.copy_vm](vCloudReference.md#vcloudcopy_vm)
+
+[vCloud.reset_vm](vCloudReference.md#vcloudreset_vm)
+
+[vCloud.shutdown_vm](vCloudReference.md#vcloudshutdown_vm)
+
+[vCloud.suspend_vm](vCloudReference.md#vcloudsuspend_vm)
+
+[vCloud.stop_vm](vCloudReference.md#vcloudstop_vm)
+
+##Task Methods
+
 [vCloud.wait_task](vCloudReference.md#vcloudwait_task)
+
+[vCloud.get_task](vCloudReference.md#vcloudget_task)
+
+##Catalog, Storage and Network Methods
+
+[vCloud.get_catalog](vCloudReference.md#vcloudget_catalog)
+
+[vCloud.get_catalogItem](vCloudReference.md#vcloudget_catalogItem)
+
+[vCloud.get_network](vCloudReference.md#vcloudget_network)
+
+[vCloud.get_storage_profiles](vCloudReference.md#vcloudget_storage_profiles)
+
+##Organization and Virtual Datacenter Methods
+
+[vCloud.get_org](vCloudReference.md#vcloudvCloud.get_org)
+
+[vCloud.get_vdc](vCloudReference.md#vcloudget_vdc)
+
+##Base Methods
+
+[vCloud.post_request](vCloudReference.md#vcloudpost_request)
+
+[vCloud.get_request](vCloudReference.md#vcloudget_request)
+
+[vCloud.delete_request](vCloudReference.md#vclouddelete_request)
 
 
 ========================================================================================
