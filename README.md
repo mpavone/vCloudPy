@@ -35,8 +35,10 @@ The documentation package includes the following documentation:
 and the samples listed below:
 
 * [SampleQuickstart.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py): Quickstart Guide Sample Code
-* [SampleCopyVApp.py](): 
-* [SampleCopyVM.py](): 
+* [SampleCopyVApp.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleCopyVApp.py): Copy a vApp sample code
+* [SampleCopyVM.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleCopyVM.py): Copy a vApp sample code
+* [SampleVAppFromTemplate.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleVAppFromTemplate.py): Create a vApp from a Template
+
 
 
 
