@@ -1,7 +1,7 @@
 Quickstart Guide
 ================
 
-Before diving in the ins and outs of the proxy class, this section hepls to learn the basic concepts and start working with vCloudPy immediately.
+Before diving into the ins and outs of the SDK, this section hepls to learn the basic concepts and start working with vCloudPy immediately.
 
 The main object of vCloudPy is the proxy class vCloud. It implements all the interfaces to interact with VMWare vCloud.
 
