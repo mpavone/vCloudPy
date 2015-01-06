@@ -46,8 +46,4 @@ vCloudClient.print_item(vms_suspended, select=select,  table=True) # select para
 for vm in vms_suspended :
     vCloudClient.start_vm(vm['href'])
 
-#vCloudClient.suspend_vm('https://admin01.dc1.private.cloud.it/api/vApp/vm-fbce3b00-c5a3-4afb-ab59-d64cc76df5dd')
- 
-#vCloudClient.suspend_vm('https://admin01.dc1.private.cloud.it/api/vApp/vm-91b6e0ad-2aa9-422d-b41f-14048b206468')
-
 
