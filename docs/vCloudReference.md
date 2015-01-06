@@ -1,9 +1,51 @@
 #vCloud Reference
 ================
 
-[jjjj](vCloudReference.md#vcloud-constructor)
+[vCloud (Constructor)](vCloudReference.md#vcloud-constructor)
+[vCloud.__extract_info__](vCloudReference.md#vcloudextract_info)
+[vCloud.__extract_info_for_element__](vCloudReference.md#vCloud.__extract_info_for_element__)
+[vCloud.__extract_info_for_type__](vCloudReference.md#vCloud.__extract_info_for_type__)
+[vCloud.recompose_vapp_to_add](vCloudReference.md#vCloud.recompose_vapp_to_add)
+[vCloud.set_status](vCloudReference.md#vCloud.set_status)
+[vCloud.connect](vCloudReference.md#vCloud.connect)
+[vCloud.copy_vapp](vCloudReference.md#vCloud.copy_vapp)
+[vCloud.copy_vm](vCloudReference.md#vCloud.copy_vm)
+[vCloud.delete_request](vCloudReference.md#vCloud.delete_request)
+[vCloud.delete_vapp](vCloudReference.md#vCloud.delete_vapp)
+[vCloud.disconnect](vCloudReference.md#vCloud.disconnect)
+[vCloud.get_catalog](vCloudReference.md#vCloud.get_catalog)
+[vCloud.get_catalogItem](vCloudReference.md#vCloud.get_catalogItem)
+[vCloud.get_item](vCloudReference.md#vCloud.get_item)
+[vCloud.get_network](vCloudReference.md#vCloud.get_network)
+[vCloud.get_org](vCloudReference.md#vCloud.vCloud.get_org)
+[vCloud.get_request](vCloudReference.md#vCloud.get_request)
+[vCloud.get_status](vCloudReference.md#vCloud.get_status)
+[vCloud.get_storage_profiles](vCloudReference.md#vCloud.get_storage_profiles)
+[vCloud.get_task](vCloudReference.md#vCloud.get_task)
+[vCloud.get_vapp](vCloudReference.md#vCloud.get_vapp)
+[vCloud.get_vapp_templates](vCloudReference.md#vCloud.get_vapp_templates)
+[vCloud.get_vdc](vCloudReference.md#vCloud.get_vdc)
+[vCloud.get_vm](vCloudReference.md#vCloud.get_vm)
+[vCloud.move_vapp](vCloudReference.md#vCloud.move_vapp)
+[vCloud.move_vm](vCloudReference.md#vCloud.move_vm)
+[vCloud.new_vapp_from_template](vCloudReference.md#vCloud.new_vapp_from_template)
+[vCloud.post_request](vCloudReference.md#vCloud.post_request)
+[vCloud.print_item](vCloudReference.md#vCloud.print_item)
+[vCloud.reboot_vapp](vCloudReference.md#vCloud.reboot_vapp)
+[vCloud.reset_vapp](vCloudReference.md#vCloud.reset_vapp)
+[vCloud.reset_vm](vCloudReference.md#vCloud.reset_vm)
+[vCloud.shutdown_vapp](vCloudReference.md#vCloud.shutdown_vapp)
+[vCloud.shutdown_vm](vCloudReference.md#vCloud.shutdown_vm)
+[vCloud.start_vapp](vCloudReference.md#vCloud.start_vapp)
+[vCloud.stop_vapp](vCloudReference.md#vCloud.stop_vapp)
+[vCloud.stop_vm](vCloudReference.md#vCloud.stop_vm)
+[vCloud.suspend_vapp](vCloudReference.md#vCloud.suspend_vapp)
+[vCloud.suspend_vm](vCloudReference.md#vCloud.suspend_vm)
+[vCloud.undeploy_vapp](vCloudReference.md#vCloud.undeploy_vapp)
+[vCloud.wait_task](vCloudReference.md#vCloud.wait_task)
 
 
+========================================================================================
 vCloud (Constructor)
 --------------------
 vCloud() 
@@ -80,9 +122,9 @@ vCloud.get_status
 ------------------
 get_status() 
 
-vCloud.get_storageProfiles
+vCloud.get_storage_profiles
 --------------------------
-get_storageProfiles(vdc_href, filter=None, select=None) 
+get_storage_profiles(vdc_href, filter=None, select=None) 
 
 vCloud.get_task
 -----------------
