@@ -29,14 +29,14 @@ Documentation
 
 The documentation package includes the following documentation:
 
-* [Quickstart Guide]() used to easily start to practice with the SDK
-* [Reference Guide]() comprehensive description of all methods
+* [Quickstart Guide](https://github.com/mpavone/vCloudPy/blob/master/docs/QuickstartGuide.md): easy start to practice with the SDK
+* [Reference Guide](https://github.com/mpavone/vCloudPy/blob/master/docs/vCloudReference.md): comprehensive description of all methods
 
 and the samples listed below:
 
-* [SampleQuickstart.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py)
-* [SampleCopyVApp.py]()
-* [SampleCopyVM.py]()
+* [SampleQuickstart.py](https://github.com/mpavone/vCloudPy/blob/master/src/SampleQuickstart.py): Qickstart Guide Sample Code
+* [SampleCopyVApp.py](): 
+* [SampleCopyVM.py](): 
 
 
 
