@@ -2,16 +2,27 @@
 ================
 
 [vCloud (Constructor)](vCloudReference.md#vcloud-constructor)
+
 [vCloud.__extract_info__](vCloudReference.md#vcloudextract_info)
+
 [vCloud.__extract_info_for_element__](vCloudReference.md#vcloudextract_info_for_element)
+
 [vCloud.__extract_info_for_type__](vCloudReference.md#vcloudextract_info_for_type)
+
 [vCloud.recompose_vapp_to_add](vCloudReference.md#vcloudrecompose_vapp_to_add)
+
 [vCloud.set_status](vCloudReference.md#vcloudset_status)
+
 [vCloud.connect](vCloudReference.md#vcloudconnect)
+
 [vCloud.copy_vapp](vCloudReference.md#vcloudcopy_vapp)
+
 [vCloud.copy_vm](vCloudReference.md#vcloudcopy_vm)
+
 [vCloud.delete_request](vCloudReference.md#vclouddelete_request)
+
 [vCloud.delete_vapp](vCloudReference.md#vclouddelete_vapp)
+
 [vCloud.disconnect](vCloudReference.md#vclouddisconnect)
 [vCloud.get_catalog](vCloudReference.md#vcloudget_catalog)
 [vCloud.get_catalogItem](vCloudReference.md#vcloudget_catalogItem)
