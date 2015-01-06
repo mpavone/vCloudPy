@@ -37,21 +37,21 @@
 
 [vCloud.copy_vapp](vCloudReference.md#vcloudcopy_vapp)
 
-[vCloud.delete_vapp](vCloudReference.md#vclouddelete_vapp)
-
 [vCloud.start_vapp](vCloudReference.md#vcloudstart_vapp)
 
 [vCloud.shutdown_vapp](vCloudReference.md#vcloudshutdown_vapp)
 
 [vCloud.suspend_vapp](vCloudReference.md#vcloudsuspend_vapp)
 
-[vCloud.undeploy_vapp](vCloudReference.md#vcloudundeploy_vapp)
-
 [vCloud.stop_vapp](vCloudReference.md#vcloudstop_vapp)
 
 [vCloud.reboot_vapp](vCloudReference.md#vcloudreboot_vapp)
 
 [vCloud.reset_vapp](vCloudReference.md#vcloudreset_vapp)
+
+[vCloud.delete_vapp](vCloudReference.md#vclouddelete_vapp)
+
+[vCloud.undeploy_vapp](vCloudReference.md#vcloudundeploy_vapp)
 
 [vCloud.new_vapp_from_template](vCloudReference.md#vcloudnew_vapp_from_template)
 
