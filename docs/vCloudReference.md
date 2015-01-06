@@ -1,16 +1,16 @@
-vCloud Reference
+#vCloud Reference
 ================
 
-vCloud (Constructor)
+#####vCloud (Constructor)
 --------------------
 vCloud() 
 
-vCloud.__extract_info__
------------------------
+#####vCloud.__extract_info__
+
 __extract_info__(content, select=None) 
 
-vCloud.__extract_info_for_element__
------------------------------------
+#####vCloud.__extract_info_for_element__
+
 __extract_info_for_element__(content, element, subelement=None, filter=None, select=None) 
 
 vCloud.__extract_info_for_type__
