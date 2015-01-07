@@ -1,7 +1,7 @@
 Quickstart Guide
 ================
 
-Before diving into the ins and outs of the SDK, this section hepls to learn the basic concepts and start working with vCloudPy immediately.
+Before diving into the ins and outs of the SDK, this section helps to learn the basic concepts and to start working with vCloudPy immediately.
 
 The main object of vCloudPy is the proxy class vCloud. It implements all the interfaces to interact with VMWare vCloud.
 
@@ -16,7 +16,7 @@ vCloudClient = vCloud()
 
 vCloudClient instance implements all the methods to work with VMWare vCloud.
 Anyway, before to call any method it is required to connect the proxy.
-The connection requires three parameters:
+The connection requires four parameters:
 
 *	user account: 	the account in VMWare vCloud DC
 *	password: 	the account's password
@@ -33,14 +33,14 @@ endpoint 	= 'https://admin.dc.private.acme.it/api/'
 vCloudClient.connect(org, username, password, endpoint)
 ```
 
-Now, you are connected to vCloud than you can start using all the method exposed by vCloudClient. Fist of all, let's retrieve organizations's info:
+Now, you are connected to vCloud than you can start using all the method exposed by vCloudClient. Fist of all, let's retrieve the organization info:
 
 ```
 org =vCloudClient.get_org()
 ```
 
-org is a dictionary containing the organization's info.
-With the following command you can retrieve the organization's properties.
+org is a dictionary containing the organization info.
+With the following command you can retrieve the organization properties.
 
 ```
 org.keys()
@@ -68,7 +68,7 @@ vms=vCloudClient.get_vm()
 vCloudClient.print_item(vms)
 ```
 
-IMPORTANT: all the methods return a single dictionay item if only one item is retrieved; otherwise, a list of dictionaries.
+IMPORTANT: all the methods return a single dictionary item if only one item is retrieved; otherwise, a list of dictionaries.
  
 A lot of info are displayed, let print only name, status and href:
 
@@ -79,7 +79,9 @@ vCloudClient.print_item(vms,  select=select)
 
 Much better, but a table presentation would be more appropriate:
 
+```
 vCloudClient.print_item(vms,  select=select,  table=True)
+```
 
 It is also possible to retrieve a filter the list of vm by properties
 
