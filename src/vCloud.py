@@ -1,3 +1,18 @@
+# vCloudPy: VMWare vCloud Automation for Python Devops
+# Copyright (c) 2014 Martino Pavone. All Rights Reserved.
+#
+# Licensed under the MIT License , (the "License"); 
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://opensource.org/licenses/MIT
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import base64
 import requests
 import time
@@ -499,97 +514,6 @@ class vCloud(object):
         
         if not(is_ok) : result = None
         return result
-        
-#TODO: method update_vm_name
-#    def update_vm_name(self, vm_href,  new_name) :
-#        is_ok = True
-#
-#        post_headers={}
-#        post_headers['Content-Type']='application/vnd.vmware.vcloud.vm+xml'
-#
-#        xml = """<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-#                <vcloud:Vm
-#                xmlns:vcloud="http://www.vmware.com/vcloud/v1.5"
-#                name="%s">
-#                </vcloud:Vm>""" % (new_name)
-#                
-#        post = self.post_request(vm_href, data=xml, headers=post_headers)
-#        is_ok = not(post==None) 
-#        
-#        if is_ok :
-#            select = ['name', 'id', 'href']
-#            result = self.__extract_info_for_element__(post.text, '{http://www.vmware.com/vcloud/v1.5}Tasks', '{http://www.vmware.com/vcloud/v1.5}Task', select=select )   
-#
-#        if not(is_ok) : result = None
-#        return result        
-        
-#TODO: method update_vm_network
-#    def update_vm_network(self, vm_href,  new_PrimaryNetworkConnectionIndex,  new_NetworkConnectionName, new_NetworkConnectionIndex ):
-#        is_ok = True
-#
-#        post_headers={}
-#        post_headers['Content-Type']='application/vnd.vmware.vcloud.networkConnectionSection+xml'
-#
-#        xml = """<?xml version="1.0" encoding="UTF-8"?>
-#                <NetworkConnectionSection
-#                xmlns="http://www.vmware.com/vcloud/v1.5"
-#                xmlns:ovf="http://schemas.dmtf.org/ovf/envelope/1">
-#                <ovf:Info>Specifies the available VM network connections</ovf:Info>
-#                <PrimaryNetworkConnectionIndex>%s</PrimaryNetworkConnectionIndex>
-#                <NetworkConnection network="%s" needsCustomization="true">
-#                <NetworkConnectionIndex>%s</NetworkConnectionIndex>
-#                <IsConnected>true</IsConnected>
-#                <IpAddressAllocationMode>%s</IpAddressAllocationMode>
-#                </NetworkConnection>
-#                </NetworkConnectionSection>""" % (new_PrimaryNetworkConnectionIndex,  new_NetworkConnectionName, new_NetworkConnectionIndex )
-#
-#        post = self.post_request(vm_href+ '/networkConnectionSection', data=xml, headers=post_headers)
-#        is_ok = not(post==None) 
-#        
-#        is_ok = not(post==None) 
-#        
-#        if is_ok :
-#            res = ET.fromstring(post.text)
-#            result=res.attrib['id']
-#            
-#        if not(is_ok) : result = None
-#        return result
-
-#TODO: method update_vm_network
-#    def update_vm_hostname(self,  vm_href,  new_hostname):
-#        is_ok = True
-#
-#        post_headers={}
-#        post_headers['Content-Type']='application/vnd.vmware.vcloud.guestcustomizationsection+xml'
-#
-#        xml = """<?xml version="1.0" encoding="UTF-8"?>
-#            <GuestCustomizationSection
-#            xmlns="http://www.vmware.com/vcloud/v1.5"
-#            xmlns:ovf="http://schemas.dmtf.org/ovf/envelope/1"
-#            ovf:required="false">
-#            <ovf:Info>Specifies Guest OS Customization Settings</ovf:Info>
-#            <Enabled>true</Enabled>
-#            <ComputerName>%s</ComputerName>
-#            </GuestCustomizationSection>""" % (new_hostname)
-#
-#        post = self.post_request(vm_href+ '/guestCustomizationSection', data=xml, headers=post_headers)
-#        is_ok = not(post==None) 
-#        
-#        is_ok = not(post==None) 
-#        
-#        if is_ok :
-#            res = ET.fromstring(post.text)
-#            result=res.attrib['id']
-#            
-#        if not(is_ok) : result = None
-#        return result
-#
-#    def start_vm(self, href):
-#        post = self.post_request(href + '/power/action/powerOn')
-#        select = ['name', 'id', 'href']
-#        result = self.__extract_info_for_element__(post.text, '{http://www.vmware.com/vcloud/v1.5}Tasks', '{http://www.vmware.com/vcloud/v1.5}Task', select=select )   
-#     
-#        return result
         
     def stop_vm(self, href):
         post = self.post_request(href + '/power/action/powerOff')
