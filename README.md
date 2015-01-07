@@ -7,7 +7,7 @@ The main objective of this project is to make as simple as possible the vCloud a
 
 The proxy class maps parameters to XML elements and the sends the HTTP calls over the network transparently. In this way the proxy class frees you from having to communicate at REST API level and allows you to invoke vCloud automation methods using an easy to use Python object. You can  be productive in half an hour.
 
-The project has been initially created for personal use to learn the VMWare vCloud REST API and to solve specific tasks. At the moment, it has been developed and tested using VMWare vCloud 5.5 and there is no full coverage of the API but, in the spirit of the Open Source, vCloudPy author encourage the community code and feedback for user for future improvements.
+The project has been initially created for personal use to learn the VMWare vCloud REST API and to solve specific tasks. At the moment, it has been developed and tested using VMWare vCloud 5.5 and there is no full coverage of the API but, in the spirit of the Open Source, the vCloudPy author encourage the community code and feedbacks from user for future improvements.
 
 License
 -------
