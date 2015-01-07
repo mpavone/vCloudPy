@@ -1,7 +1,7 @@
 from vCloud import vCloud
 
 print ("\n--------------------------------------------------------------------")
-print ("vCloudPy: VMWare vCloud Automation in Pyhon for Devops ")
+print ("vCloudPy: VMWare vCloud Automation for Python Devops")
 print ("--------------------------------------------------------------------")
 
 vCloudClient = vCloud()
