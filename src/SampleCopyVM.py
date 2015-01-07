@@ -1,7 +1,24 @@
+# vCloudPy: VMWare vCloud Automation for Python Devops
+# Copyright (c) 2014 Martino Pavone. All Rights Reserved.
+#
+# Licensed under the MIT License , (the "License"); 
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://opensource.org/licenses/MIT
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 from vCloud import vCloud
 
 print ("\n--------------------------------------------------------------------")
 print ("vCloudPy: VMWare vCloud Automation for Python Devops")
+print ("--------------------------------------------------------------------")
+print ("This sample shows how to copy a single VM into a new vApp")
 print ("--------------------------------------------------------------------")
 
 vCloudClient = vCloud()
