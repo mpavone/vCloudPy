@@ -27,7 +27,7 @@ The script has been developed and tested in the following environment:
 Documentation
 -------------
 
-The documentation package includes the following documentation:
+The documentation package includes the following guides:
 
 * [Quickstart Guide](https://github.com/mpavone/vCloudPy/blob/master/docs/QuickstartGuide.md): easy start to practice with the SDK
 * [Reference Guide](https://github.com/mpavone/vCloudPy/blob/master/docs/vCloudReference.md): comprehensive description of all methods
