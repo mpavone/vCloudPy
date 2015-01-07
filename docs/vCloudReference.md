@@ -1,7 +1,7 @@
 #vCloud Reference
 ================
 
-##Conructor and Private Methods
+##Constructor and Private Methods
 
 [vCloud (Constructor)](vCloudReference.md#vcloud-constructor)
 
