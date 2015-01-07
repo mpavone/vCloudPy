@@ -1,5 +1,5 @@
 vCloudPy: VMWare vCloud Automation for Python Devops
-====================================================
+----------------------------------------------------
 
 The vCloud automation using Python can be accomplished using REST API calls, which encapsulate the input and output parameters in a HTTP call. The REST API calls are well documented by VMWare (http://pubs.vmware.com/vcd-55/index.jsp ), nevertheless the approach to the API is not simple and it requires an enormous amount of work to perform even simple tasks.
 
